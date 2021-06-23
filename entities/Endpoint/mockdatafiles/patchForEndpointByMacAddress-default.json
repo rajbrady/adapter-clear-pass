@@ -1,0 +1,7 @@
+{
+  "id": 4,
+  "mac_address": "string",
+  "description": "string",
+  "status": "Disabled",
+  "attributes": {}
+}

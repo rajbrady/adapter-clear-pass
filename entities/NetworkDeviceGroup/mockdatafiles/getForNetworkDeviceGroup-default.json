@@ -1,0 +1,42 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": 7,
+        "name": "string",
+        "description": "string",
+        "group_format": "string",
+        "value": "string"
+      },
+      {
+        "id": 6,
+        "name": "string",
+        "description": "string",
+        "group_format": "string",
+        "value": "string"
+      },
+      {
+        "id": 1,
+        "name": "string",
+        "description": "string",
+        "group_format": "string",
+        "value": "string"
+      },
+      {
+        "id": 10,
+        "name": "string",
+        "description": "string",
+        "group_format": "string",
+        "value": "string"
+      }
+    ]
+  },
+  "_links": {
+    "self": "string",
+    "first": "string",
+    "last": "string",
+    "prev": "string",
+    "next": "string"
+  },
+  "count": 3
+}

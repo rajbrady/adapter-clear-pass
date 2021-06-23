@@ -1,0 +1,207 @@
+{
+  "actions": [
+    {
+      "name": "getForRole",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/role?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForRole-default.json"
+        }
+      ]
+    },
+    {
+      "name": "postForRole",
+      "protocol": "REST",
+      "method": "POST",
+      "entitypath": "{base_path}/{version}/role?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/postForRole-default.json"
+        }
+      ]
+    },
+    {
+      "name": "getGETForRole",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/role/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getGETForRole-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForRole",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/role/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForRole-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForRole",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/role/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForRole-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForRole",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/role/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    },
+    {
+      "name": "getForRoleByName",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/role/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForRoleByName-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForRoleByName",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/role/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForRoleByName-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForRoleByName",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/role/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForRoleByName-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForRoleByName",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/role/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    }
+  ]
+}

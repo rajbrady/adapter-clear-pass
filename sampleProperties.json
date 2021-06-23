@@ -1,0 +1,106 @@
+{
+  "id": "Adapter-Adapter-Clear-Pass",
+  "type": "AdapterClearPass",
+  "properties": {
+    "host": "10.5.26.222",
+    "port": 443,
+    "base_path": "/api",
+    "version": "",
+    "cache_location": "none",
+    "encode_pathvars": true,
+    "save_metric": true,
+    "stub": true,
+    "protocol": "https",
+    "authentication": {
+      "auth_method": "no_authentication",
+      "username": "username",
+      "password": "password",
+      "token": "token",
+      "token_timeout": 600000,
+      "token_cache": "local",
+      "invalid_token_error": 401,
+      "auth_field": "header.headers.Authorization",
+      "auth_field_format": "Basic {b64}{username}:{password}{/b64}",
+      "auth_logging": false,
+      "client_id": "",
+      "client_secret": "",
+      "grant_type": ""
+    },
+    "healthcheck": {
+      "type": "none",
+      "frequency": 60000,
+      "query_object": {}
+    },
+    "throttle": {
+      "throttle_enabled": false,
+      "number_pronghorns": 1,
+      "sync_async": "sync",
+      "max_in_queue": 1000,
+      "concurrent_max": 1,
+      "expire_timeout": 0,
+      "avg_runtime": 200,
+      "priorities": [
+        {
+          "value": 0,
+          "percent": 100
+        }
+      ]
+    },
+    "request": {
+      "number_redirects": 0,
+      "number_retries": 3,
+      "limit_retry_error": [
+        0
+      ],
+      "failover_codes": [],
+      "attempt_timeout": 5000,
+      "global_request": {
+        "payload": {},
+        "uriOptions": {},
+        "addlHeaders": {},
+        "authData": {}
+      },
+      "healthcheck_on_timeout": true,
+      "return_raw": false,
+      "archiving": false,
+      "return_request": false
+    },
+    "proxy": {
+      "enabled": false,
+      "host": "",
+      "port": 1,
+      "protocol": "http",
+      "username": "",
+      "password": ""
+    },
+    "ssl": {
+      "ecdhCurve": "",
+      "enabled": false,
+      "accept_invalid_cert": false,
+      "ca_file": "",
+      "key_file": "",
+      "cert_file": "",
+      "secure_protocol": "",
+      "ciphers": ""
+    },
+    "mongo": {
+      "host": "",
+      "port": 0,
+      "database": "",
+      "username": "",
+      "password": "",
+      "replSet": "",
+      "db_ssl": {
+        "enabled": false,
+        "accept_invalid_cert": false,
+        "ca_file": "",
+        "key_file": "",
+        "cert_file": ""
+      }
+    }
+  },
+  "groups": [],
+  "brokers": [],
+  "logLevel": "none",
+  "timeout": 120000
+}

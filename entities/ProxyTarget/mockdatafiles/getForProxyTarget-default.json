@@ -1,0 +1,32 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": 10,
+        "name": "string",
+        "host_name": "string",
+        "description": "string",
+        "authentication_port": 3,
+        "accounting_port": 8,
+        "secret": "string"
+      },
+      {
+        "id": 10,
+        "name": "string",
+        "host_name": "string",
+        "description": "string",
+        "authentication_port": 6,
+        "accounting_port": 10,
+        "secret": "string"
+      }
+    ]
+  },
+  "_links": {
+    "self": "string",
+    "first": "string",
+    "last": "string",
+    "prev": "string",
+    "next": "string"
+  },
+  "count": 5
+}

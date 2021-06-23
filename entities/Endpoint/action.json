@@ -1,0 +1,207 @@
+{
+  "actions": [
+    {
+      "name": "getForEndpoint",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/endpoint?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForEndpoint-default.json"
+        }
+      ]
+    },
+    {
+      "name": "postForEndpoint",
+      "protocol": "REST",
+      "method": "POST",
+      "entitypath": "{base_path}/{version}/endpoint?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/postForEndpoint-default.json"
+        }
+      ]
+    },
+    {
+      "name": "getGETForEndpoint",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/endpoint/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getGETForEndpoint-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForEndpoint",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/endpoint/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForEndpoint-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForEndpoint",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/endpoint/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForEndpoint-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForEndpoint",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/endpoint/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    },
+    {
+      "name": "getForEndpointByMacAddress",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/endpoint/mac-address/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForEndpointByMacAddress-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForEndpointByMacAddress",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/endpoint/mac-address/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForEndpointByMacAddress-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForEndpointByMacAddress",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/endpoint/mac-address/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForEndpointByMacAddress-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForEndpointByMacAddress",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/endpoint/mac-address/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "errors": [],
+  "statistics": [
+    {
+      "owner": "errorJson",
+      "description": "Standard adapter errors available for use",
+      "value": 30
+    },
+    {
+      "owner": "packageJson",
+      "description": "Number of production dependencies",
+      "value": 12
+    },
+    {
+      "owner": "packageJson",
+      "description": "Number of development dependencies",
+      "value": 9
+    },
+    {
+      "owner": "packageJson",
+      "description": "Number of npm scripts",
+      "value": 21
+    },
+    {
+      "owner": "packageJson",
+      "description": "Runtime Library dependency",
+      "value": "^4.41.0"
+    },
+    {
+      "owner": "propertiesSchemaJson",
+      "description": "Adapter properties defined in the propertiesSchema file",
+      "value": 64
+    },
+    {
+      "owner": "adapterJS",
+      "description": "Lines of code generated in adapter.js",
+      "value": 6697
+    },
+    {
+      "owner": "adapterJS",
+      "description": "Number of Functions added to adapter.js",
+      "value": 73
+    },
+    {
+      "owner": "pronghornJson",
+      "description": "Number of Methods added to pronghorn.json",
+      "value": 73
+    },
+    {
+      "owner": "readmeMd",
+      "description": "Number of lines in the README.md",
+      "value": 684
+    },
+    {
+      "owner": "unitTestJS",
+      "description": "Number of lines of code in unit tests",
+      "value": 3727
+    },
+    {
+      "owner": "unitTestJS",
+      "description": "Number of unit tests",
+      "value": 213
+    },
+    {
+      "owner": "integrationTestJS",
+      "description": "Number of lines of code in integration tests",
+      "value": 2958
+    },
+    {
+      "owner": "integrationTestJS",
+      "description": "Number of integration tests",
+      "value": 78
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for StaticHostList entity",
+      "value": 10
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for Role entity",
+      "value": 10
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for LocalUser entity",
+      "value": 13
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for Endpoint entity",
+      "value": 10
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for ProxyTarget entity",
+      "value": 10
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for NetworkDevice entity",
+      "value": 10
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for NetworkDeviceGroup entity",
+      "value": 10
+    },
+    {
+      "owner": "actionJson",
+      "description": "Total number of actions",
+      "value": 73
+    },
+    {
+      "owner": "actionJson",
+      "description": "Total number of entities",
+      "value": 7
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for StaticHostList entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for Role entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for LocalUser entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for Endpoint entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for ProxyTarget entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for NetworkDevice entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for NetworkDeviceGroup entity",
+      "value": 1
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Total number of schemas",
+      "value": 7
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for StaticHostList entity",
+      "value": 8
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for Role entity",
+      "value": 8
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for LocalUser entity",
+      "value": 11
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for Endpoint entity",
+      "value": 8
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for ProxyTarget entity",
+      "value": 8
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for NetworkDevice entity",
+      "value": 8
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for NetworkDeviceGroup entity",
+      "value": 8
+    },
+    {
+      "owner": "mockdata",
+      "description": "Total number of mock data files",
+      "value": 59
+    },
+    {
+      "owner": "actionJson",
+      "description": "Number of actions for .system entity",
+      "value": 2
+    },
+    {
+      "owner": "schemaJson",
+      "description": "Number of schemas for .system entity",
+      "value": 3
+    },
+    {
+      "owner": "mockdata",
+      "description": "Number of mock data files for .system entity",
+      "value": 2
+    },
+    {
+      "owner": "System",
+      "description": "System entity files",
+      "value": 6
+    },
+    {
+      "owner": "usecases",
+      "description": "Number of workflows",
+      "value": 0
+    },
+    {
+      "owner": "staticFile",
+      "description": "Number of lines of code in adapterBase.js",
+      "value": 1007
+    },
+    {
+      "owner": "staticFile",
+      "description": "Number of static files added",
+      "value": 31
+    },
+    {
+      "owner": "Overall",
+      "description": "Total lines of Code",
+      "value": 14389
+    },
+    {
+      "owner": "Overall",
+      "description": "Total Tests",
+      "value": 291
+    },
+    {
+      "owner": "Overall",
+      "description": "Total Files",
+      "value": 118
+    }
+  ],
+  "apiParsingReport": {
+    "no_mockdata": [
+      {
+        "fnName": "dELETEForStaticHostList",
+        "method": "delete",
+        "path": "/static-host-list/{static_host_list_id}"
+      },
+      {
+        "fnName": "dELETEForStaticHostListByName",
+        "method": "delete",
+        "path": "/static-host-list/name/{name}"
+      },
+      {
+        "fnName": "dELETEForRole",
+        "method": "delete",
+        "path": "/role/{role_id}"
+      },
+      {
+        "fnName": "dELETEForRoleByName",
+        "method": "delete",
+        "path": "/role/name/{name}"
+      },
+      {
+        "fnName": "dELETEForLocalUser",
+        "method": "delete",
+        "path": "/local-user/{local_user_id}"
+      },
+      {
+        "fnName": "dELETEForLocalUserByUserId",
+        "method": "delete",
+        "path": "/local-user/user-id/{user_id}"
+      },
+      {
+        "fnName": "dELETEForEndpoint",
+        "method": "delete",
+        "path": "/endpoint/{endpoint_id}"
+      },
+      {
+        "fnName": "dELETEForEndpointByMacAddress",
+        "method": "delete",
+        "path": "/endpoint/mac-address/{mac_address}"
+      },
+      {
+        "fnName": "dELETEForProxyTarget",
+        "method": "delete",
+        "path": "/proxy-target/{proxy_target_id}"
+      },
+      {
+        "fnName": "dELETEForProxyTargetByName",
+        "method": "delete",
+        "path": "/proxy-target/name/{name}"
+      },
+      {
+        "fnName": "dELETEForNetworkDevice",
+        "method": "delete",
+        "path": "/network-device/{network_device_id}"
+      },
+      {
+        "fnName": "dELETEForNetworkDeviceByName",
+        "method": "delete",
+        "path": "/network-device/name/{name}"
+      },
+      {
+        "fnName": "dELETEForNetworkDeviceGroup",
+        "method": "delete",
+        "path": "/network-device-group/{network_device_group_id}"
+      },
+      {
+        "fnName": "dELETEForNetworkDeviceGroupByName",
+        "method": "delete",
+        "path": "/network-device-group/name/{name}"
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "callsTotal": 73,
+    "callsConverted": 73,
+    "no_mockdata_num": 14
+  }
+}

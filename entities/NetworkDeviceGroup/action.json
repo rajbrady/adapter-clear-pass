@@ -1,0 +1,207 @@
+{
+  "actions": [
+    {
+      "name": "getForNetworkDeviceGroup",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/network-device-group?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForNetworkDeviceGroup-default.json"
+        }
+      ]
+    },
+    {
+      "name": "postForNetworkDeviceGroup",
+      "protocol": "REST",
+      "method": "POST",
+      "entitypath": "{base_path}/{version}/network-device-group?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/postForNetworkDeviceGroup-default.json"
+        }
+      ]
+    },
+    {
+      "name": "getGETForNetworkDeviceGroup",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/network-device-group/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getGETForNetworkDeviceGroup-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForNetworkDeviceGroup",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/network-device-group/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForNetworkDeviceGroup-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForNetworkDeviceGroup",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/network-device-group/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForNetworkDeviceGroup-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForNetworkDeviceGroup",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/network-device-group/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    },
+    {
+      "name": "getForNetworkDeviceGroupByName",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/network-device-group/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForNetworkDeviceGroupByName-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForNetworkDeviceGroupByName",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/network-device-group/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForNetworkDeviceGroupByName-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForNetworkDeviceGroupByName",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/network-device-group/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForNetworkDeviceGroupByName-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForNetworkDeviceGroupByName",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/network-device-group/name/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    }
+  ]
+}

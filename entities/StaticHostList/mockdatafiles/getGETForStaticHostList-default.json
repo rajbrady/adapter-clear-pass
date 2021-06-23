@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "name": "string",
+  "description": "string",
+  "host_format": "regex",
+  "host_type": "IPAddress",
+  "value": "string"
+}

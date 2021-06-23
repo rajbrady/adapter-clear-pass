@@ -1,0 +1,8 @@
+{
+  "id": 10,
+  "name": "string",
+  "description": "string",
+  "host_format": "subnet",
+  "host_type": "IPAddress",
+  "value": "string"
+}

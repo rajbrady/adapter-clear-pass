@@ -1,0 +1,49 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": 10,
+        "mac_address": "string",
+        "description": "string",
+        "status": "Unknown",
+        "attributes": {}
+      },
+      {
+        "id": 10,
+        "mac_address": "string",
+        "description": "string",
+        "status": "Disabled",
+        "attributes": {}
+      },
+      {
+        "id": 2,
+        "mac_address": "string",
+        "description": "string",
+        "status": "Known",
+        "attributes": {}
+      },
+      {
+        "id": 2,
+        "mac_address": "string",
+        "description": "string",
+        "status": "Disabled",
+        "attributes": {}
+      },
+      {
+        "id": 4,
+        "mac_address": "string",
+        "description": "string",
+        "status": "Unknown",
+        "attributes": {}
+      }
+    ]
+  },
+  "_links": {
+    "self": "string",
+    "first": "string",
+    "last": "string",
+    "prev": "string",
+    "next": "string"
+  },
+  "count": 5
+}

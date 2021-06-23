@@ -1,0 +1,34 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": 1,
+        "name": "string",
+        "description": "string"
+      },
+      {
+        "id": 7,
+        "name": "string",
+        "description": "string"
+      },
+      {
+        "id": 6,
+        "name": "string",
+        "description": "string"
+      },
+      {
+        "id": 4,
+        "name": "string",
+        "description": "string"
+      }
+    ]
+  },
+  "_links": {
+    "self": "string",
+    "first": "string",
+    "last": "string",
+    "prev": "string",
+    "next": "string"
+  },
+  "count": 1
+}

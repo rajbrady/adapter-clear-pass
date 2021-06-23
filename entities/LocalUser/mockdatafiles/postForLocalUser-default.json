@@ -1,0 +1,10 @@
+{
+  "id": 6,
+  "user_id": "string",
+  "password": "string",
+  "username": "string",
+  "role_name": "string",
+  "enabled": true,
+  "change_pwd_next_login": true,
+  "attributes": {}
+}

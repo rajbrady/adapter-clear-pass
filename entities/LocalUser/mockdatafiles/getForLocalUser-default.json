@@ -1,0 +1,54 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": 8,
+        "user_id": "string",
+        "password": "string",
+        "username": "string",
+        "role_name": "string",
+        "enabled": false,
+        "change_pwd_next_login": false,
+        "attributes": {}
+      },
+      {
+        "id": 6,
+        "user_id": "string",
+        "password": "string",
+        "username": "string",
+        "role_name": "string",
+        "enabled": false,
+        "change_pwd_next_login": true,
+        "attributes": {}
+      },
+      {
+        "id": 3,
+        "user_id": "string",
+        "password": "string",
+        "username": "string",
+        "role_name": "string",
+        "enabled": true,
+        "change_pwd_next_login": false,
+        "attributes": {}
+      },
+      {
+        "id": 9,
+        "user_id": "string",
+        "password": "string",
+        "username": "string",
+        "role_name": "string",
+        "enabled": true,
+        "change_pwd_next_login": false,
+        "attributes": {}
+      }
+    ]
+  },
+  "_links": {
+    "self": "string",
+    "first": "string",
+    "last": "string",
+    "prev": "string",
+    "next": "string"
+  },
+  "count": 3
+}

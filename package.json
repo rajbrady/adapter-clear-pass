@@ -1,0 +1,79 @@
+{
+  "name": "@itentialopensource/adapter-Adapter-Clear-Pass",
+  "version": "0.1.0",
+  "description": "This adapter integrates with system described as: clearpassSwaggerApi.",
+  "main": "adapter.js",
+  "wizardVersion": "2.43.15",
+  "engineVersion": "1.59.14",
+  "adapterType": "http",
+  "scripts": {
+    "artifactize": "npm i && node utils/packModificationScript.js",
+    "preinstall": "node utils/setup.js",
+    "lint": "node --max_old_space_size=4096 ./node_modules/eslint/bin/eslint.js . --ext .json --ext .js",
+    "lint:errors": "node --max_old_space_size=4096 ./node_modules/eslint/bin/eslint.js . --ext .json --ext .js --quiet",
+    "test:baseunit": "mocha test/unit/adapterBaseTestUnit.js --LOG=error",
+    "test:unit": "mocha test/unit/adapterTestUnit.js --LOG=error",
+    "test:integration": "mocha test/integration/adapterTestIntegration.js --LOG=error",
+    "test:cover": "nyc --reporter html --reporter text mocha --reporter dot test/*",
+    "test": "npm run test:baseunit && npm run test:unit && npm run test:integration",
+    "adapter:install": "node utils/tbScript.js install",
+    "adapter:checkMigrate": "node utils/checkMigrate.js",
+    "adapter:findPath": "node utils/findPath.js",
+    "adapter:migrate": "node utils/modify.js -m",
+    "adapter:update": "node utils/modify.js -u",
+    "adapter:revert": "node utils/modify.js -r",
+    "troubleshoot": "node utils/tbScript.js",
+    "healthcheck": "node utils/tbScript.js healthcheck",
+    "basicget": "node utils/tbScript.js basicget",
+    "connectivity": "node utils/tbScript.js connectivity",
+    "deploy": "npm publish --registry=http://registry.npmjs.org --access=public",
+    "build": "npm run deploy"
+  },
+  "keywords": [
+    "Itential",
+    "IAP",
+    "Automation",
+    "Integration",
+    "App-Artifacts",
+    "Adapter",
+    "Adapter-Clear-Pass",
+    "Pre-Release"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:itentialopensource/adapters/adapter-Adapter-Clear-Pass.git"
+  },
+  "author": "Itential",
+  "homepage": "https://gitlab.com/itentialopensource/adapters/adapter-Adapter-Clear-Pass#readme",
+  "dependencies": {
+    "@itentialopensource/adapter-utils": "^4.41.0",
+    "ajv": "^6.12.0",
+    "axios": "^0.21.0",
+    "commander": "^2.20.0",
+    "fs-extra": "^8.1.0",
+    "mocha": "^8.1.1",
+    "mocha-param": "^2.0.1",
+    "network-diagnostics": "^0.5.3",
+    "nyc": "^15.1.0",
+    "readline-sync": "^1.4.10",
+    "semver": "^7.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/helper-function-name": "^7.14.2",
+    "chai": "^4.2.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-module-utils": "^2.6.1",
+    "eslint-plugin-import": "^2.23.0",
+    "eslint-plugin-json": "^3.0.0",
+    "package-json-validator": "^0.6.3",
+    "testdouble": "^3.16.1"
+  },
+  "private": false
+}

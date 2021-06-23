@@ -1,0 +1,8 @@
+{
+  "id": 6,
+  "name": "string",
+  "description": "string",
+  "host_format": "list",
+  "host_type": "MACAddress",
+  "value": "string"
+}

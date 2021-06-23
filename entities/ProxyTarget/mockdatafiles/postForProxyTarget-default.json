@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "string",
+  "host_name": "string",
+  "description": "string",
+  "authentication_port": 4,
+  "accounting_port": 8,
+  "secret": "string"
+}

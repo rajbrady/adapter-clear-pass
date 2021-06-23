@@ -1,0 +1,268 @@
+{
+  "actions": [
+    {
+      "name": "getForLocalUserPasswordPolicy",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/local-user/password-policy?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForLocalUserPasswordPolicy-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForLocalUserPasswordPolicy",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/local-user/password-policy?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForLocalUserPasswordPolicy-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForLocalUserPasswordPolicy",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/local-user/password-policy?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForLocalUserPasswordPolicy-default.json"
+        }
+      ]
+    },
+    {
+      "name": "getForLocalUser",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/local-user?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForLocalUser-default.json"
+        }
+      ]
+    },
+    {
+      "name": "postForLocalUser",
+      "protocol": "REST",
+      "method": "POST",
+      "entitypath": "{base_path}/{version}/local-user?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/postForLocalUser-default.json"
+        }
+      ]
+    },
+    {
+      "name": "getGETForLocalUser",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/local-user/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getGETForLocalUser-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForLocalUser",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/local-user/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForLocalUser-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForLocalUser",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/local-user/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForLocalUser-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForLocalUser",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/local-user/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    },
+    {
+      "name": "getForLocalUserByUserId",
+      "protocol": "REST",
+      "method": "GET",
+      "entitypath": "{base_path}/{version}/local-user/user-id/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "sendGetBody": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/getForLocalUserByUserId-default.json"
+        }
+      ]
+    },
+    {
+      "name": "patchForLocalUserByUserId",
+      "protocol": "REST",
+      "method": "PATCH",
+      "entitypath": "{base_path}/{version}/local-user/user-id/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/patchForLocalUserByUserId-default.json"
+        }
+      ]
+    },
+    {
+      "name": "putForLocalUserByUserId",
+      "protocol": "REST",
+      "method": "PUT",
+      "entitypath": "{base_path}/{version}/local-user/user-id/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": "mockdatafiles/putForLocalUserByUserId-default.json"
+        }
+      ]
+    },
+    {
+      "name": "deleteForLocalUserByUserId",
+      "protocol": "REST",
+      "method": "DELETE",
+      "entitypath": "{base_path}/{version}/local-user/user-id/{pathv1}?{query}",
+      "requestSchema": "schema.json",
+      "responseSchema": "schema.json",
+      "timeout": 0,
+      "sendEmpty": false,
+      "requestDatatype": "JSON",
+      "responseDatatype": "JSON",
+      "headers": {},
+      "responseObjects": [
+        {
+          "type": "default",
+          "key": "",
+          "mockFile": ""
+        }
+      ]
+    }
+  ]
+}

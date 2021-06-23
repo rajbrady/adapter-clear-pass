@@ -1,0 +1,62 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": 7,
+        "name": "string",
+        "description": "string",
+        "host_format": "regex",
+        "host_type": "MACAddress",
+        "value": "string"
+      },
+      {
+        "id": 8,
+        "name": "string",
+        "description": "string",
+        "host_format": "list",
+        "host_type": "MACAddress",
+        "value": "string"
+      },
+      {
+        "id": 5,
+        "name": "string",
+        "description": "string",
+        "host_format": "list",
+        "host_type": "MACAddress",
+        "value": "string"
+      },
+      {
+        "id": 9,
+        "name": "string",
+        "description": "string",
+        "host_format": "regex",
+        "host_type": "IPAddress",
+        "value": "string"
+      },
+      {
+        "id": 5,
+        "name": "string",
+        "description": "string",
+        "host_format": "list",
+        "host_type": "MACAddress",
+        "value": "string"
+      },
+      {
+        "id": 6,
+        "name": "string",
+        "description": "string",
+        "host_format": "subnet",
+        "host_type": "IPAddress",
+        "value": "string"
+      }
+    ]
+  },
+  "_links": {
+    "self": "string",
+    "first": "string",
+    "last": "string",
+    "prev": "string",
+    "next": "string"
+  },
+  "count": 5
+}

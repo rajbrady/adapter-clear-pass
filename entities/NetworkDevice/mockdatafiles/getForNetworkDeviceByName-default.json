@@ -1,0 +1,52 @@
+{
+  "id": 8,
+  "description": "string",
+  "name": "string",
+  "ip_address": "string",
+  "radius_secret": "string",
+  "tacacs_secret": "string",
+  "vendor_name": "string",
+  "coa_capable": false,
+  "coa_port": 1,
+  "radsec_enabled": true,
+  "snmp_read": {
+    "force_read": true,
+    "read_arp_info": false,
+    "zone_name": "string",
+    "snmp_version": "V3",
+    "community_string": "string",
+    "security_level": "AUTH_NOPRIV",
+    "user": "string",
+    "auth_protocol": "MD5",
+    "auth_key": "string",
+    "privacy_protocol": "DES_CBC",
+    "privacy_key": "string"
+  },
+  "snmp_write": {
+    "default_vlan": 8,
+    "snmp_version": "V3",
+    "community_string": "string",
+    "security_level": "NOAUTH_NOPRIV",
+    "user": "string",
+    "auth_protocol": "SHA",
+    "auth_key": "string",
+    "privacy_protocol": "DES_CBC",
+    "privacy_key": "string"
+  },
+  "cli_config": {
+    "type": "Telnet",
+    "port": 8,
+    "username": "string",
+    "password": "string",
+    "username_prompt_regex": "string",
+    "password_prompt_regex": "string",
+    "command_prompt_regex": "string",
+    "enable_prompt_regex": "string",
+    "enable_password": "string"
+  },
+  "onConnect_enforcement": {
+    "enabled": true,
+    "ports": "string"
+  },
+  "attributes": {}
+}

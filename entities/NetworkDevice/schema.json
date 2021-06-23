@@ -1,0 +1,50 @@
+{
+  "$id": "schema.json",
+  "type": "object",
+  "schema": "http://json-schema.org/draft-07/schema#",
+  "translate": true,
+  "dynamicfields": true,
+  "properties": {
+    "ph_request_type": {
+      "type": "string",
+      "description": "type of request (internal to adapter)",
+      "default": "getForNetworkDevice",
+      "enum": [
+        "getForNetworkDevice",
+        "postForNetworkDevice",
+        "getGETForNetworkDevice",
+        "patchForNetworkDevice",
+        "putForNetworkDevice",
+        "deleteForNetworkDevice",
+        "getForNetworkDeviceByName",
+        "patchForNetworkDeviceByName",
+        "putForNetworkDeviceByName",
+        "deleteForNetworkDeviceByName"
+      ],
+      "external_name": "ph_request_type"
+    },
+    "calculateCount": {
+      "type": "boolean",
+      "description": "Whether to calculate the total item count",
+      "parse": false,
+      "encode": false,
+      "encrypt": {
+        "type": "AES",
+        "key": ""
+      },
+      "external_name": "calculate_count"
+    },
+    "networkDeviceId": {
+      "type": "number",
+      "description": "Numeric ID of the network device",
+      "parse": false,
+      "encode": false,
+      "encrypt": {
+        "type": "AES",
+        "key": ""
+      },
+      "external_name": "network_device_id"
+    }
+  },
+  "definitions": {}
+}
