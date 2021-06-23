@@ -681,3 +681,4 @@ Custom Adapters are maintained by other sources.
 ### Product License
 
 [Apache 2.0](./LICENSE)
+#adapter-clear-pass
